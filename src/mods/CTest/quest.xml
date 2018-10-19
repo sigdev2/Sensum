@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest>
+    <name>Веб-Дизайн</name><item id="0" text="Что выдаст исполнение данного кода ?" answer="ошибку" content="img" type="radio" srcImg="./upload/php_error.jpg"><variant name="var1">числа в одну строку, без пробелов от 0 до 4</variant><variant name="var2">числа в одну строку, без пробелов от 0 до 5 </variant><variant name="var3">числа в одну строку, без пробелов от 1 до 4</variant><variant name="var4">числа в одну строку, без пробелов от 1 до 5</variant><variant name="var5">ошибку</variant></item><item id="1" text="Как расшифровывается сокращение PHP ?" answer="Personal Home Page" content="textonly" type="radio"><variant name="var1">Personal Home Page</variant><variant name="var2">Hypertext Preprocessor</variant><variant name="var3">никак</variant></item><item id="3" text="Какой php код не содержит синтаксических ошибок?" answer="no no yes yes" content="textonly" type="check"><variant name="var1">&amp;lt;?php&#13;
+ if (bUser == true)&#13;
+     echo &amp;quot;is user&amp;quot;;&#13;
+ else&#13;
+     echo &amp;quot;is not user&amp;quot;;&#13;
+?&amp;gt;</variant><variant name="var2">&amp;lt;?php&#13;
+ if ($bUser = true)&#13;
+     echo &amp;quot;is user&amp;quot;;&#13;
+ else&#13;
+     echo &amp;quot;is not user&amp;quot;;&#13;
+?&amp;gt;</variant><variant name="var3">&amp;lt;?php&#13;
+ if ($bUser == true)&#13;
+     echo &amp;quot;is user&amp;quot;;&#13;
+ else&#13;
+     echo &amp;quot;is not user&amp;quot;;&#13;
+?&amp;gt;</variant><variant name="var4">&amp;lt;?php&#13;
+ if ($bUser == true)&#13;
+ {&#13;
+     echo &amp;quot;is user&amp;quot;;&#13;
+ }&#13;
+ else&#13;
+ {&#13;
+     echo &amp;quot;is not user&amp;quot;;&#13;
+ }&#13;
+?&amp;gt;</variant></item><item id="2" text="Какой из ниже приведённых языков не является языком веб-программирования ?" answer="HTML" content="textonly" type="select"><variant name="var1">Perl</variant><variant name="var2">HTML</variant><variant name="var3">JavaScript</variant><variant name="var4">PHP</variant></item><item id="4" text="Для чего служит тег &amp;lt;p /&amp;gt; ?" content="textonly" type="radio" answer="Выделение абзаца"><variant name="var1">Выделение текста</variant><variant name="var2">Отметка начала текста</variant><variant name="var3">Выделение абзаца</variant><variant name="var4">Ограничение видимого поля</variant></item><item id="5" text="Как сокращённо называется независящий от платформы и языка программный интерфейс, позволяющий программам и скриптам получить доступ к содержимому документов, а также изменять их содержимое, структуру и оформление ? (заглавными буквами)" answer="DOM" content="textonly" type="text"/><item id="7" text="Какой type следует указать тегу &amp;lt;object /&amp;gt; для вставки следующего flash-ролика ?" answer="application/x-shockwave-flash" content="flash" type="radio" srcFlash="./upload/cat_himik.swf"><variant name="var1">application</variant><variant name="var2">application/x-shockwave-flash</variant><variant name="var3">application/flash</variant><variant name="var4">flash</variant></item><item id="6" text="Просмотрев видео ответьте, какой аргумент следует указать тегу &amp;lt;a /&amp;gt;, чтобы указать адрес ссылки ?" answer="href" content="video" type="radio" srcVideo="http://www.youtube.com/v/GwQMnpUsj8I"><variant name="var1">src</variant><variant name="var2">addres</variant><variant name="var3">href</variant><variant name="var4">link</variant><variant name="var5">alt</variant></item><item id="8" text="Какой размер в MySQL имеет целочисленный тип SMALLINT ?" answer="-32768...+32767" content="textonly" type="radio"><variant name="var1">-128...+127</variant><variant name="var2">-32768...+32767</variant><variant name="var3">-8 388 608...+8 388 607</variant><variant name="var4">-2 147 483 648...+2 147 483 647</variant><variant name="var5">-9 223 372 036 854 775 808...+9 223 372 036 854 775 807</variant></item><item id="9" text="Какие типы передачи аргументов в функцию поддерживаются в PHP ?" answer="yes yes no no no" content="textonly" type="check"><variant name="var1">по значению</variant><variant name="var2">по ссылке</variant><variant name="var3">по указателю</variant><variant name="var4">по константной ссылке</variant><variant name="var5">по константному указателю</variant></item></quest>

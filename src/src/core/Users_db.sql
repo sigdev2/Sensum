@@ -1,0 +1,38 @@
+CREATE TABLE ROLES
+(
+ROLE_NAME    char(255)          NOT NULL,
+ACCESS_LEVEL int       unsigned NOT NULL,
+
+PRIMARY KEY(ACCESS_LEVEL)
+);
+
+CREATE TABLE USERS
+(
+U_NO      int       unsigned NOT NULL auto_increment,
+LOGIN     char(255)          NOT NULL,
+NIKNAME   char(255)          NOT NULL,
+PASS      char(255)          NOT NULL,
+ACCESS_LEVEL int       unsigned NOT NULL,
+
+USER_DATA_XML TEXT               NULL,
+
+PRIMARY KEY(U_NO)
+);
+
+ALTER TABLE USERS
+ADD FOREIGN KEY(ACCESS_LEVEL) REFERENCES ROLES;
+
+CREATE TABLE SESSIONS
+(
+LOGIN      char(255)          NULL,
+SESSION_ID char(255)          NOT NULL,
+LAST_TIME  int       unsigned NOT NULL,
+PRIMARY KEY(SESSION_ID)
+);
+
+ALTER TABLE SESSIONS
+ADD FOREIGN KEY(LOGIN) REFERENCES USERS;
+
+INSERT INTO ROLES VALUES('Default user', 0);
+INSERT INTO ROLES VALUES('Default admin', 1);
+INSERT INTO USERS VALUES(0, 'user@email.ru', 'Admin', 'admin_pass_hash', 1, NULL);

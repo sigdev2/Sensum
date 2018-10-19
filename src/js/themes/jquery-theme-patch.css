@@ -1,0 +1,12 @@
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+.ui-datepicker { width: 17em; padding: 0; }
+.ui-datepicker .ui-datepicker-header { position:relative; padding:0 0 .1em; border-radius:4px 4px 0 0; -moz-border-radius:4px 4px 0 0; border-style:none none solid; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.6em; }
+.ui-datepicker th { padding: .3em .3em; text-align: center; font-weight: bold; border: 0;  }
+.ui-dialog { position: relative; padding: 0; width: 300px; }
+.ui-dialog .ui-dialog-titlebar { padding: .5em .3em .3em 1em; position: relative; -moz-border-radius:4px 4px 0 0; border-radius:4px 4px 0 0; border-style:none none solid; padding:0.2em 0.3em 0.1em 0.6em; }
+.ui-dialog .ui-dialog-content { border: 0; padding: .5em .6em; background: none; overflow: auto; zoom: 1; }
+.ui-tabs { padding: 0; zoom: 1; }
+.ui-tabs .ui-tabs-nav { list-style: none; position: relative; padding: .2em .2em 0; -moz-border-radius:4px 4px 0 0; border-radius:4px 4px 0 0; border-style:none none solid; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .2em 1em; }
+.ui-tabs .ui-tabs-panel { padding: 1em 1.2em; display: block; border-width: 0; background: none; }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<root>
+  <description>Контакты.</description>
+  <keywords>контакты</keywords>
+  <content>
+    <p>
+        Как проехать ?
+    </p>
+    <p>
+        Куда звонить ?
+    </p>
+    <p>
+        Куда писать ?
+    </p>
+  </content>
+</root>

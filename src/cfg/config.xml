@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+    <site name="Пример" host="localhost">
+    </site>
+    <admin name="SigDev" icq="" email="" />
+    <pagesFile>./cfg/pagesFile.xml</pagesFile>
+    <moduls>
+        <modul id="Текст" class="CStringList" src="./mods/CStringList/class.php"/>
+        <modul id="Список" class="CPagesList" src="./mods/CPagesList/class.php"/>
+        <modul id="Каталог" class="CCatalog" src="./mods/CCatalog/class.php"/>
+        <modul id="Гостевая" class="CGuestbook" src="./mods/CGuestbook/class.php"/>
+        
+        <!-- AJAX -->
+        <modul id="Каптча" class="CCaptcha" src="./mods/CCaptcha/class.php"/>
+        <modul id="Управление пользователями" class="CUsers" src="./mods/CUsers/class.php"/>
+        <modul id="Отправка почты" class="CAdminMail" src="./mods/CAdminMail/class.php"/>
+    </moduls>
+    <widgetBars>
+        <topBar>
+            <widget id="Главное меню" class="CMenu" src="./widgets/CMenu/class.php" options="id=Main&#38;mode=span"/>
+        </topBar>
+        <leftBar>
+            <widget id="Меню каталога" class="CCatalogMenu" src="./widgets/CCatalogMenu/class.php" options="/"/>
+        </leftBar>
+        <loginBar>
+            <widget id="Логин" class="CLogin" src="./widgets/CLogin/class.php"/>
+        </loginBar>
+        <buttomBar>
+            <widget id="Корзина" class="CCart" src="./widgets/CCart/class.php"/>
+        </buttomBar>
+    </widgetBars>
+    <template src="./tpl/example/example.xsl" adminSrc="./tpl/example/example.xsl" />
+    <head>
+        <keywords separator=" ">Ваши ключевые слова</keywords>
+        <description separator=" ">Пример</description>
+        <titleSep> - </titleSep>
+    </head>
+</configure>

@@ -1,0 +1,18 @@
+<Files "admin.php"> 
+AuthType Basic   
+AuthName "Private zone. Only for administrator!" 
+AuthUserFile  /home/u165820/test.okkult.org.ru/.htpasswd   
+require user Sigurd
+</Files>
+<Files "del.php"> 
+AuthType Basic   
+AuthName "Private zone. Only for administrator!" 
+AuthUserFile  /home/u165820/test.okkult.org.ru/.htpasswd   
+require user Sigurd
+</Files>
+<Files "add.php"> 
+AuthType Basic   
+AuthName "Private zone. Only for administrator!" 
+AuthUserFile  /home/u165820/test.okkult.org.ru/.htpasswd   
+require user Sigurd
+</Files>
