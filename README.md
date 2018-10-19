@@ -1,4 +1,4 @@
-#Sensum
+# Sensum
 
 Simple hardcoded XML-XSLT file based site engine writen on PHP
 
